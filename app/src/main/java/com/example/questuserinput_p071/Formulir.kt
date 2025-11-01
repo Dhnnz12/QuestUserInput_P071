@@ -34,6 +34,7 @@ fun RegistrationForm() {
         modifier = Modifier
             .fillMaxSize()
             .background(Color.White)
+            .padding(top = 53.dp)
     ) {
         Box(
             modifier = Modifier

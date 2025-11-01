@@ -27,7 +27,7 @@ fun RegistrationForm() {
     val statusPerkawinanOptions = listOf("Janda", "Lajang", "Duda")
     var alamat by remember { mutableStateOf("") }
 
-    val lightPurple = Color(0xFFE0D6FF)
+    val lightPurple = Color(0xFFb38fd5)
     val darkPurple = Color(0xFF6750A4)
     val backgroundColor = Color(0xFFF7F2FA)
 
@@ -48,10 +48,9 @@ fun RegistrationForm() {
         {
             Text(
                 text = "Formulir Pendaftaran",
-                fontSize = 28.sp,
-                fontWeight = FontWeight.Bold,
-                color = darkPurple,
-                modifier = Modifier.padding(start = 16.dp)
+                fontSize = 30.sp,
+                color = Color.White,
+                modifier = Modifier.padding(start = 10.dp)
             )
         }
 

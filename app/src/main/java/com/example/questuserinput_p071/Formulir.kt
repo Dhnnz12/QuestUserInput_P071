@@ -78,6 +78,8 @@ fun RegistrationForm() {
                     imeAction = ImeAction.Next
                 )
             )
+
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

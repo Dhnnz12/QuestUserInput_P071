@@ -19,13 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             QuestUserInput_P071Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    RegistrationForm (
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    RegistrationForm ()
                 }
             }
         }
     }
-}
-

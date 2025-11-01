@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestUserInput_P071Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    RegistrationForm (
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -30,18 +29,3 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    QuestUserInput_P071Theme {
-        Greeting("Android")
-    }
-}

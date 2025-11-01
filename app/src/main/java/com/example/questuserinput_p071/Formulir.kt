@@ -17,3 +17,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun RegistrationForm() {
+    var namaLengkap by remember { mutableStateOf("") }
+    var jenisKelamin by remember { mutableStateOf("") }
+    val jenisKelaminOptions = listOf("Laki-laki", "Perempuan")
+    var statusPerkawinan by remember { mutableStateOf("") }
+    val statusPerkawinanOptions = listOf("Janda", "Lajang", "Duda")
+    var alamat by remember { mutableStateOf("") }
+}

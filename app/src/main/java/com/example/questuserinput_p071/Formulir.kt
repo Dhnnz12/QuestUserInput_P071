@@ -42,6 +42,12 @@ fun RegistrationForm() {
             contentAlignment = Alignment.Center
         )
         {
+            Text(
+                text = "Formulir Pendaftaran",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = darkPurple
+            )}
 
         }
 

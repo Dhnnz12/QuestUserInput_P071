@@ -29,4 +29,20 @@ fun RegistrationForm() {
     val lightPurple = Color(0xFFE0D6FF)
     val darkPurple = Color(0xFF6750A4)
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.White)
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(lightPurple)
+                .padding(24.dp),
+            contentAlignment = Alignment.Center
+        )
+        {
+
+        }
+
 }

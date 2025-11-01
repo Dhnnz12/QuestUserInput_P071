@@ -192,6 +192,8 @@ fun RegistrationForm() {
                     )
                 }
 
+                Spacer(modifier = Modifier.height(2.dp))
+
             }
         }
     }
